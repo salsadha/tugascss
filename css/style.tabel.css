@@ -1,0 +1,43 @@
+/* Menggunakan border-collapse: collapse; untuk mengatur jarak antara sel */
+table {
+    border-collapse: collapse;
+    font-family: Verdana;
+}
+
+/* Mengubah lebar kolom pertama menjadi 50px */
+td:first-child {
+    width: 50px;
+}
+
+/* Mengubah lebar kolom lainnya menjadi 100px dengan garis bawah putih */
+td:not(:first-child) {
+    width: 100px;
+    border-bottom: 1px solid white;
+}
+
+/* Mengubah gaya kolom dalam <thead> */
+thead td {
+    background-color: gray;
+    /* tambahkan gaya sesuai kebutuhan Anda */
+}
+
+/* Mengubah baris ganjil dalam <tbody> */
+tbody tr:nth-child(odd) {
+    background-color: black;
+    color: white;
+    /*kalau odd itu ganjil*/
+}
+
+/* Mengubah baris genap dalam <tbody> */
+tbody tr:nth-child(even) {
+    background-color: pink;
+    color: white;
+    /*kalau even itu genap*/
+}
+
+/* Mengubah warna kolom dan teks saat hover */
+td:hover {
+    background-color: rgb(120, 114, 98);
+    color: white;
+    /* tambahkan gaya sesuai kebutuhan Anda */
+}

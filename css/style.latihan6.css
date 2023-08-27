@@ -1,0 +1,38 @@
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+
+    /*Menengahkan gambar*/
+    display: block;
+    margin:0px auto 0px auto;
+}
+
+/*selector digunakan untuk memilih mana bagian dari HTML yang akan diubah*/
+/*syntax CSS adalah selector(properties: value;)*/
+
+/*selector dengan nama tag*/
+h1{
+    color: black;
+}
+
+/*selector id*/
+#judul{
+    color: orange;
+}
+
+/*selector class*/
+.tengah{
+    align-self: center;
+    color:blue;
+}
+
+/*Multy selector*/
+h2,h3,h4{
+    color: midnightblue;
+}
+
+/*Lebih spesifik lagi bisa*/
+h2.tengah{
+    color: pink;
+}
